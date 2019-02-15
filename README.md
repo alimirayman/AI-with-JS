@@ -51,3 +51,15 @@
 { parent: 'C', pathCost: 13, value: 'G' }
 ==========GreedyS==========: 3.791ms
 ```
+
+## A\* Algorithm
+
+```bash
+[ 'S(8)' ]
+[ 'B(5)', 'A(11)', 'C(11)' ]
+[ 'A(11)', 'C(11)', 'G(21)' ]
+[ 'C(11)', 'G(18)', 'G(21)', 'D(Infinity)', 'E(Infinity)' ]
+[ 'G(13)', 'G(18)', 'G(21)', 'D(Infinity)', 'E(Infinity)' ]
+{ parent: 'C', pathCost: 13, value: 'G' }
+==========A_star_Alg0==========: 4.006ms
+```
