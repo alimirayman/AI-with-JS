@@ -41,3 +41,13 @@
 { parent: 'C', pathCost: 13, value: 'G' }
 ==========UCS==========: 3.778ms
 ```
+
+## Greedy Search
+
+```bash
+[ 'S(8)' ]
+[ 'C(3)', 'B(4)', 'A(8)' ]
+[ 'G(13)', 'B(4)', 'A(8)' ]
+{ parent: 'C', pathCost: 13, value: 'G' }
+==========GreedyS==========: 3.791ms
+```
