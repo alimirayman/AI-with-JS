@@ -63,3 +63,9 @@
 { parent: 'C', pathCost: 13, value: 'G' }
 ==========A_star_Alg0==========: 4.006ms
 ```
+
+### Run program
+
+```
+install node js and run each file individually
+```
