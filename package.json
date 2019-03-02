@@ -4,7 +4,8 @@
   "description": "Basic AI algorithm solving with Javascript. Algorithms listed are A* Algorithm, BFS, DFS, UCS, Greedy",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "example": "NODE_ENV=development node ./examples/index.js"
   },
   "repository": {
     "type": "git",
