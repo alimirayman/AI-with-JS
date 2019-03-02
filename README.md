@@ -64,8 +64,52 @@
 ==========A_star_Alg0==========: 4.006ms
 ```
 
-### Run program
+### Use program
 
 ```
-install node js and run each file individually
+npm install alimirayman/AI-with-JS
+```
+
+```js
+var { algo, createGraph } = require('ai-with-js')
+
+var data = [
+  //value,  pathCost, heuristic,  edge
+  ['S', 0, 8, 3],
+  ['A', 3, 8, 1],
+  ['E', 7, Infinity, 0],
+  ['B', 1, 4, 1],
+  ['G', 20, 0, 0],
+  ['C', 8, 3, 1],
+  ['G', 5, 0, 0]
+]
+
+let root = createGraph(data)
+
+console.log(algo.bfs(root, 'G'))
+// { parent: 'A', chain: [ 'A', 'S' ], pathCost: 18, value: 'G' }
+```
+
+### Run Example and See calculation
+
+`pull the repo run command`
+
+```
+npm run example
+```
+
+### TEST
+
+```
+npm test
+```
+
+```bash
+ PASS  __test__/algo.test.js
+  algorithms
+    ✓ Breadth First Search (3ms)
+    ✓ Depth-first search
+    ✓ Uniform Cost Search (1ms)
+    ✓ Greedy Search
+    ✓ A* search (1ms)
 ```
