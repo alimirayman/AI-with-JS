@@ -1,0 +1,25 @@
+{
+  "name": "ai-with-js",
+  "version": "1.0.0",
+  "description": "Basic AI algorithm solving with Javascript. Algorithms listed are A* Algorithm, BFS, DFS, UCS, Greedy",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimirayman/AI-with-JS.git"
+  },
+  "keywords": [
+    "AI"
+  ],
+  "author": "Mir Ayman Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimirayman/AI-with-JS/issues"
+  },
+  "homepage": "https://github.com/alimirayman/AI-with-JS#readme",
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}

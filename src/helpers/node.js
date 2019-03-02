@@ -34,8 +34,15 @@ class node {
     return `${this.value}(${this.pathCost})`
   }
   data() {
+    let chain = []
+    let curr = this
+    while (curr.parent) {
+      curr = curr.parent
+      chain.push(curr.value)
+    }
     return {
       parent: this.parent.value,
+      chain,
       pathCost: this.pathCost,
       value: this.value
     }

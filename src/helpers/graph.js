@@ -30,5 +30,6 @@ function createGraph(data) {
 }
 
 module.exports = {
-  createGraph
+  createGraph,
+  node
 }
