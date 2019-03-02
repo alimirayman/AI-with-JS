@@ -4,7 +4,7 @@
   "description": "Basic AI algorithm solving with Javascript. Algorithms listed are A* Algorithm, BFS, DFS, UCS, Greedy",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "url": "https://github.com/alimirayman/AI-with-JS/issues"
   },
   "homepage": "https://github.com/alimirayman/AI-with-JS#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^24.1.0"
   }
 }
