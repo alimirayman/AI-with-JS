@@ -67,7 +67,7 @@
 ### Use program
 
 ```
-npm install alimirayman/AI-with-JS
+npm install alimirayman/ai-with-js
 ```
 
 ```js
